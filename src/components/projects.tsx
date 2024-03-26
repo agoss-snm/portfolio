@@ -2,7 +2,7 @@ import "./components.scss";
 import arrow from '../assets/arrow.png'
 import candyGamble from '../assets/candygamble.jpg'
 import creativeIa from '../assets/creativeIa.jpg'
-import gifEcommerse from '../assets/gifEcoomerse.gif'
+import gifEcommerse from '../assets/ecommerce.jpg'
 
 const Projects = () => {
 
@@ -39,7 +39,6 @@ const Projects = () => {
   ]
 
   return (
-    <div className="container">
     <section id="projects">
       <p className="section__text__p1">Browse My Recent</p>
       <h1 className="title">Projects</h1>
@@ -53,7 +52,7 @@ const Projects = () => {
                 className="project-img"
               />
             </div>
-            <h2 className="experience-sub-title project-title">Project One</h2>
+            <h2 className="experience-sub-title project-title">Candy Gamble</h2>
             <div className="btn-container">
               <button
                 className="btn btn-color-2 project-btn"
@@ -77,7 +76,7 @@ const Projects = () => {
                 className="project-img"
               />
             </div>
-            <h2 className="experience-sub-title project-title">Project Two</h2>
+            <h2 className="experience-sub-title project-title">Creative Studio</h2>
             <div className="btn-container">
               <button
                 className="btn btn-color-2 project-btn"
@@ -107,7 +106,7 @@ const Projects = () => {
                 className="project-img"
               />
             </div>
-            <h2 className="experience-sub-title project-title">Project Three</h2>
+            <h2 className="experience-sub-title project-title">E-Commerce</h2>
             <div className="btn-container">
               <button
                 className="btn btn-color-2 project-btn"
@@ -133,10 +132,6 @@ const Projects = () => {
       />
     </section>
 
-
-
-
-    </div>
   );
 };
 

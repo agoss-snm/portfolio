@@ -1,9 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?gfamily=Poppins:wght@300;400;500;600&displayswap");
-* {
-  margin: 0;
-  padding: 0;
-}
-
 body {
   font-family: "Poppins", sans-serif;
 }
@@ -149,15 +144,6 @@ a:hover {
     color: #213547;
   }
 }
-.container {
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
-}
-
 .name {
   font-family: "Alex Brush", cursive;
   font-weight: 400;
@@ -416,9 +402,7 @@ article {
 
 article .icon {
   cursor: default;
-}
-
-/* PROJECTS SECTION */
+} /* PROJECTS SECTION */
 #projects {
   position: relative;
 }
@@ -471,10 +455,6 @@ article .icon {
   margin: 1rem;
 }
 
-.section__text__p1 {
-  text-align: center;
-}
-
 .contact-info-container p {
   font-size: larger;
 }
@@ -494,5 +474,9 @@ footer {
 }
 
 footer p {
+  text-align: center;
+}
+
+.section__text__p1 {
   text-align: center;
 }/*# sourceMappingURL=components.css.map */

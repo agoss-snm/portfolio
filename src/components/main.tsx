@@ -4,7 +4,6 @@ import curriculum from "../assets/CurriculumAgostinaRomero.pdf";
 
 const Main = () => {
   return (
-    <div className="container">
       <section id="profile">
         <div className="section_pic-container">
           <img src={profile} alt="Agostina Romero profile picture" />
@@ -59,7 +58,6 @@ const Main = () => {
 
         
       </section>
-    </div>
   );
 };
 

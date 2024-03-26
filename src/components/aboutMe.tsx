@@ -13,7 +13,6 @@ const AboutMe = () => {
 
 
   return (
-    <div className='container'>
     <section id="about">
       <p className="section_text_p1">Get To Know More</p>
       <h1 className='title'>About Me</h1>
@@ -48,7 +47,6 @@ const AboutMe = () => {
       onClick={handleOnClick}
       />
     </section>
-    </div>
   );
 };
 

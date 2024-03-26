@@ -1,16 +1,31 @@
+import linkedin from '../assets/linkedin.png'
+import email from '../assets/email.png'
+
 const Contact = ()=>{
 
     return(
-        <div className='container' id='contact'>
-            <h1>CONTACT FORM</h1>
-            <div className='container'>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet voluptatibus odit odio voluptates perspiciatis quaerat quo, at pariatur. Neque blanditiis, aut ab aliquid ad incidunt accusamus aspernatur veritatis quaerat tempore nam sit quidem deserunt.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet voluptatibus odit odio voluptates perspiciatis quaerat quo, at pariatur. Neque blanditiis, aut ab aliquid ad incidunt accusamus aspernatur veritatis quaerat tempore nam sit quidem deserunt.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet voluptatibus odit odio voluptates perspiciatis quaerat quo, at pariatur. Neque blanditiis, aut ab aliquid ad incidunt accusamus aspernatur veritatis quaerat tempore nam sit quidem deserunt.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet voluptatibus odit odio voluptates perspiciatis quaerat quo, at pariatur. Neque blanditiis, aut ab aliquid ad incidunt accusamus aspernatur veritatis quaerat tempore nam sit quidem deserunt.</p>
-            </div>
-           
+            <section id="contact">
+      <p className="section__text__p1">Get in Touch</p>
+      <h1 className="title">Contact Me</h1>
+      <div className="contact-info-upper-container">
+        <div className="contact-info-container">
+          <img
+            src={email}
+            alt="Email icon"
+            className="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:examplemail@gmail.com">agostinaromontamat@gmail.com</a></p>
         </div>
+        <div className="contact-info-container">
+          <img
+            src={linkedin}
+            alt="LinkedIn icon"
+            className="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/agossromero/" target='_blank'>LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
     )
     }
     
