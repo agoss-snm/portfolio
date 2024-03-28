@@ -89,6 +89,9 @@
   }
 }
 @media screen and (max-width: 600px) {
+  #about {
+    padding-top: 18vh;
+  }
   #contact,
   footer {
     height: 40vh;
