@@ -18,7 +18,7 @@
       justify-content: center;
     gap:5rem;
     height: 80vh;
-    width: 160vh;
+    width: auto;
     }
     .arrow {
       display: none;
@@ -63,9 +63,11 @@
     .experience-details-container {
       margin-top: 2rem;
     }
+   
     #profile,
     .section-container {
       display: block;
+      width: auto;
     }
     .arrow {
       display: none;
@@ -91,10 +93,12 @@
     #contact,
     footer {
       height: 40vh;
+      
     }
     #profile {
       height: 83vh;
       margin-bottom: 0;
+      width: auto;
     }
     article {
       font-size: 1rem;
