@@ -36,7 +36,16 @@ const AboutMe = () => {
             </div>
 
             <div className='text-container'>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum quis aperiam sunt doloribus commodi, impedit atque libero. Aut pariatur hic eveniet explicabo nisi perferendis vel deserunt sequi, voluptatibus modi fugit incidunt distinctio recusandae laboriosam, sapiente delectus quos saepe possimus ex laudantium autem quas temporibus quasi? Quidem nesciunt consequatur dicta, corrupti nobis ratione architecto nemo esse magnam assumenda ipsa accusantium quis perferendis voluptatem quisquam. Quod nobis reiciendis veritatis impedit nemo. Quasi minima, quis sapiente doloremque culpa repellendus cum? Hic ipsa necessitatibus corrupti dolor alias quod odio, possimus quisquam facilis minima autem adipisci sit saepe perferendis iusto laboriosam. Fugit, sit! Ea eveniet consequatur provident quae magni ratione aperiam asperiores libero neque. Doloribus atque saepe ab perferendis eos ea esse illo et illum?</p>
+              <p>Hello! My name is Agostina, I am a web developer.
+Throughout my training, I have worked on various projects, both on my own and collaborating with other professionals.
+  One of my most rewarding achievements was developing a website for a renewable energy company,
+where I worked in collaboration with a UX/UI designer and another programmer.
+  This experience taught me the importance of collaboration and how to integrate design and functionality to create different solutions to client needs.
+In addition to my JavaScript and React skills, I also have experience working with projects in Java, Joomla, WordPress, c#, and relational databases such as my SQL.
+I have worked with various CSS-related technologies and frameworks to deliver exceptional visual experiences. Some of the tools and technologies I have used include CSS and SCSS, Bootstrap, Styled Components, Material Design, Ant Design and Tailwind CSS.
+My purpose is to continue growing as a web developer and contribute to the development of
+innovative solutions that improve the user experience.
+</p>
             </div>
 
         </div>

@@ -12,6 +12,46 @@
     }
   }
   
+  @media only screen and (max-width: 1366px) {
+    #profile {
+      height: 13vh;
+      justify-content: center;
+    gap:5rem;
+    height: 80vh;
+    width: 160vh;
+    }
+    .arrow {
+      display: none;
+    }
+    .about-containers {
+      flex-wrap: wrap;
+    }
+    #contact,
+    #projects {
+      height: fit-content;
+    }
+  
+    #experience,
+    .experience-details-container {
+      margin-top: 2rem;
+    }
+    section,
+    .section-container {
+      height: fit-content;
+    }
+    section {
+      margin: 0 5%;
+    }
+    .section_pic-container {
+      width: 275px;
+      height: 275px;
+      margin: 0 auto 1rem;
+    }
+    .about-containers {
+      margin-top: 1vh;
+    }
+  }
+
   @media screen and (max-width: 1200px) {
     #desktop-nav {
       display: none;
@@ -88,7 +128,7 @@
     }
     .section_pic-container {
       width: auto;
-      height: 46vw !important; 
+      height: 46vw; 
       justify-content: center;
     }
     .section__text__p2 {
